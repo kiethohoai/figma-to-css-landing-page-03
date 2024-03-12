@@ -612,3 +612,33 @@ header__action--signup {
 .blog-item__more:hover {
    color: #10375c;
 }
+
+/* appointment code================================== */
+/* appointment code================================== */
+.appointment {
+   margin: 85px 0;
+}
+
+.appointment__inner {
+   padding: 100px 179px;
+   background: #f6fbff;
+   text-align: center;
+}
+
+.appointment__heading::after {
+   content: "";
+   display: block;
+   width: 136px;
+   height: 2px;
+   background: #2e80ce;
+   margin: 18px auto 0;
+}
+
+.appointment__desc {
+   max-width: 617px;
+   margin: 18px auto 0;
+}
+
+.appointment__btn {
+   margin-top: 38px;
+}
